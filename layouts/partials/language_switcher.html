@@ -1,0 +1,4 @@
+<select onchange="location = this.value;">
+    <option value="/" {{ if eq .Site.Language.Lang "en" }}selected{{ end }}>English</option>
+    <option value="/vi/" {{ if eq .Site.Language.Lang "vi" }}selected{{ end }}>Vietnamese</option>
+</select>
